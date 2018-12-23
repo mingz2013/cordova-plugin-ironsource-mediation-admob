@@ -1,0 +1,20 @@
+cdvPluginPostBuildExtras.add({
+
+repositories {
+    maven {
+        url 'https://dl.bintray.com/ironsource-mobile/android-sdk'
+        url 'https://dl.bintray.com/ironsource-mobile/android-adapters'
+    }
+}
+
+dependencies {
+    implementation 'com.ironsource.sdk:mediationsdk:6.8.0.1@jar'
+
+
+    // Add AdMob Network
+    implementation 'com.ironsource.adapters:admobadapter:4.3.0@jar'
+}
+
+
+
+});
