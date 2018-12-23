@@ -35,7 +35,7 @@
 
         </config-file>
 
-        <framework src="src/android/ironsourceads.gradle" custom="true" type="gradleReference"/>
+        <framework src="src/android/ironsource-plugin-admob.gradle" custom="true" type="gradleReference"/>
 
     </platform>
 
